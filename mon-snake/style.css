@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#game {
+    background-color: green;
+    border-radius: 4%;
+}
+
+.snake {
+    color : blue !important;
+}
+
+.score-container {
+    position: absolute;
+    top: 17%;
+    left: 68%;
+}
+
+.die-text {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 43px;
+    color: red;
+    visibility: hidden;
+    top: 32%;
+    left: 35%;
+}
+
+.silly-snake img {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    visibility: hidden;
+    border-radius: 4%;
+}
+
+.visible {
+    visibility: visible !important;
+}
+
+/* .silly-snake img:hover {
+    visibility: visible !important;
+}  */
+
+.bitch-text {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    font-size: 43px;
+    color: red;
+    visibility: hidden;
+    z-index: 2;
+    top: 16%;
+    left: 43%;
+}

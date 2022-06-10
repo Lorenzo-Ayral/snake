@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Snake</title>
+  </head>
+  <body>
+    <div class="score-container">
+      <div class="score">
+        <p>Your score is : <span id="show-score"></span></p>
+      </div>
+      <div class="high-score">
+        <p>The highest score is :<span id="show-high-score"></span></p>
+      </div>
+    </div>
+    <div class="silly-snake">
+      <img id="silly-img" src="./js/assets/horror.jpg" />
+      <canvas id="game" width="600" height="600"> </canvas>
+      <div class="die-text"><h1>You're snaked !</h1></div>
+    </div>
+    <div class="bitch-text">
+      <h3>
+        Don't do that <br />
+        silly snake
+      </h3>
+    </div>
+  </body>
+  <script src="js/classes/Snake.js"></script>
+  <script src="js/classes/Block.js"></script>
+  <script src="js/classes/Food.js"></script>
+  <script src="js/game.js"></script>
+</html>
