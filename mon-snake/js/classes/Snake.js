@@ -84,7 +84,7 @@ class Snake {
           this.alive = false;
           dieText.style.visibility = "visible";
           ring();
-          temps.setTimeout();
+          scoreIncrease.setTimeout();
         }
       }
 
